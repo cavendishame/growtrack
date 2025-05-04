@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/growtrack/static/css/main.db6a61c2.css",
-    "main.js": "/growtrack/static/js/main.bfb149bf.js",
+    "main.js": "/growtrack/static/js/main.7bc36df3.js",
     "static/js/239.fcaddd2b.chunk.js": "/growtrack/static/js/239.fcaddd2b.chunk.js",
     "static/js/213.1f840ba8.chunk.js": "/growtrack/static/js/213.1f840ba8.chunk.js",
     "static/js/732.447e1da6.chunk.js": "/growtrack/static/js/732.447e1da6.chunk.js",
     "static/js/453.8ab44547.chunk.js": "/growtrack/static/js/453.8ab44547.chunk.js",
     "index.html": "/growtrack/index.html",
     "main.db6a61c2.css.map": "/growtrack/static/css/main.db6a61c2.css.map",
-    "main.bfb149bf.js.map": "/growtrack/static/js/main.bfb149bf.js.map",
+    "main.7bc36df3.js.map": "/growtrack/static/js/main.7bc36df3.js.map",
     "239.fcaddd2b.chunk.js.map": "/growtrack/static/js/239.fcaddd2b.chunk.js.map",
     "213.1f840ba8.chunk.js.map": "/growtrack/static/js/213.1f840ba8.chunk.js.map",
     "732.447e1da6.chunk.js.map": "/growtrack/static/js/732.447e1da6.chunk.js.map",
@@ -16,6 +16,6 @@
   },
   "entrypoints": [
     "static/css/main.db6a61c2.css",
-    "static/js/main.bfb149bf.js"
+    "static/js/main.7bc36df3.js"
   ]
 }
