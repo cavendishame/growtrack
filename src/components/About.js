@@ -8,13 +8,13 @@ const About = () => {
       name: "Javanka Amedeo Cavendish",
       nim: "22040095",
       role: "Web Developer",
-      img: "/profile.png",
+      img: "/public/profile.png",
     },
     {
       name: "Yadi Dharmawan",
       nim: "22040071",
       role: "IoT Engineer",
-      img: "/Mawan.jpg",
+      img: "/public/Mawan.jpg",
     },
   ];
 
@@ -22,17 +22,17 @@ const About = () => {
     {
       title: "Sistem Informasi Tumbuh Kembang Balita",
       description: "Aplikasi prediksi stunting, prediksi calon ibu, dan saran MPASI",
-      image: "/proyek1.png",
+      image: "/public/proyek1.png",
     },
     {
       title: "Alat Pengukur Tinggi & Berat Badan",
       description: "Alat Pengukut berbasis IoT secara real-time",
-      image: "/proyek2.jpg",
+      image: "/public/proyek2.jpg",
     },
     {
       title: "Sistem Informasi Tumbuh Kembang Balita",
       description: "Aplikasi prediksi stunting, prediksi calon ibu, dan saran MPASI",
-      image: "/proyek1.png",
+      image: "/public/proyek1.png",
     },
     {
       title: "Analisis Laporan Kejahatan menggunakan PySpark ",
@@ -43,25 +43,25 @@ const About = () => {
     {
       title: "Pengolahan Citra dengan Geometric Transformation",
       description: "Transformasi geometri pada pengolahan citra digital.",
-      image: "/proyek3.jpg",
+      image: "/public/proyek3.jpg",
       link: "https://bisa.ai/portofolio/detail/NDA4Nw",
     },
     {
       title: "Klasifikasi Diabetes menggunakan Metode SVM",
       description: "Metode ini terutama populer karena kemampuannya dalam menangani dataset dengan dimensi tinggi serta kemampuannya dalam menangani kasus-kasus di mana jumlah fitur (features) melebihi jumlah sampel. ",
-      image: "/proyek5.jpg",
+      image: "/public/proyek5.jpg",
       link: "https://bisa.ai/portofolio/detail/NDA4Nw",
     },
     {
         title: "Pemilihan Model dan Peningkatan Performa Model dengan Dataset Iris",
         description: "Proyek ini bertujuan untuk mengeksplorasi, memilih, dan meningkatkan model prediktif menggunakan dataset Iris yang terkenal. Dataset ini terdiri dari empat fitur numerik: panjang dan lebar kelopak (sepal_length, sepal_width) dan panjang dan lebar mahkota bunga (petal_length, petal_width), serta satu label kategorikal, spesies bunga (species).",
-        image: "/proyek6.jpg",
+        image: "/public/proyek6.jpg",
         link: "https://bisa.ai/portofolio/detail/NTA4NQ",
       },
       {
         title: "Analisis Data dan Eksplorasi Dataset Iris ",
         description: "Tujuan dari analisis ini adalah untuk memahami karakteristik dataset Iris melalui langkah-langkah pra-pemrosesan data dan eksplorasi data (EDA). Analisis ini akan membantu kita dalam mengidentifikasi pola dan hubungan antar fitur yang ada dalam dataset.",
-        image: "/proyek7.jpg",
+        image: "/public/proyek7.jpg",
         link: "https://bisa.ai/portofolio/detail/NTA4Mg",
       },
   ];

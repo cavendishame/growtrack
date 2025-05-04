@@ -1,5 +1,6 @@
 import React from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+
 import Dashboard from "./components/Dashboard";
 import Login from "./components/Login";
 import Register from "./components/Register";
@@ -14,25 +15,25 @@ import IbuPrediction from "./components/IbuPrediction";
 import Mpasi from "./components/MPASI";
 import IbuHistory from "./components/IbuHistory";
 import StuntingPage from "./components/StuntingUser";
-import AdminDashboard from"./components/AdminDashboard";
+import AdminDashboard from "./components/AdminDashboard";
 import UserList from "./components/DaftarAkun";
 import MpasiList from "./components/KelolaMpasi";
 import About from "./components/About";
 
 function App() {
   return (
-    <Router>
+    <BrowserRouter basename="/growtrack">
       <Routes>
         <Route path="/" element={<Dashboard />} />
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
         <Route path="/StuntingPrediction" element={<StuntingPrediction />} />
         <Route path="/BidanDashboard" element={<BidanDashboard />} />
-        <Route path="/AnakList" element={<AnakList />} /> 
-        <Route path="/SideBidan" element={<SideBidan />} /> 
-        <Route path="/StuntingHistory" element={<StuntingHistory />} /> 
-        <Route path="/MPASI" element={<Mpasi />} /> 
-        <Route path="/SideUser" element={<SideUser />} /> 
+        <Route path="/AnakList" element={<AnakList />} />
+        <Route path="/SideBidan" element={<SideBidan />} />
+        <Route path="/StuntingHistory" element={<StuntingHistory />} />
+        <Route path="/MPASI" element={<Mpasi />} />
+        <Route path="/SideUser" element={<SideUser />} />
         <Route path="/UserDashboard" element={<UserDashboard />} />
         <Route path="/IbuPrediction" element={<IbuPrediction />} />
         <Route path="/IbuHistory" element={<IbuHistory />} />
@@ -40,9 +41,9 @@ function App() {
         <Route path="/AdminDashboard" element={<AdminDashboard />} />
         <Route path="/DaftarAkun" element={<UserList />} />
         <Route path="/KelolaMpasi" element={<MpasiList />} />
-        <Route path="/About" element={<About/>}/>
+        <Route path="/About" element={<About />} />
       </Routes>
-    </Router>
+    </BrowserRouter>
   );
 }
 

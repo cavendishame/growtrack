@@ -35,7 +35,7 @@ const CustomNavbar = () => {
           <div style={{ display: "flex", alignItems: "center", gap: "10px" }}>
             <div style={{ fontSize: "0.85rem", color: "white" }}>Politeknik Harapan Bersama</div>
             <img
-              src="/image.png"
+              src="/public/image.png"
               alt="Logo Poltek Harber"
               style={{ height: "40px", objectFit: "contain" }}
             />
@@ -45,7 +45,7 @@ const CustomNavbar = () => {
 
       {/* Gambar full layar */}
       <img
-        src="/Picture1.png"
+        src="/public/Picture1.png"
         alt="Prediksi Stunting"
         style={{
           width: "100vw",
